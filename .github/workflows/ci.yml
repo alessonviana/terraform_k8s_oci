@@ -10,7 +10,7 @@ jobs:
   terraform:
     name: "Unit Tests"
     runs-on: ubuntu-18.04
-        env:
+    env:
       working-directory: terraform
       TF_WORKSPACE: my-workspace
 
